@@ -1,0 +1,14 @@
+CREATE TABLE Player (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    rating FLOAT
+);
+
+INSERT INTO Player (name, age, rating) VALUES
+('Messi', 38, 99),
+('Ronaldo', 40, 98),
+('Neymar', 36, 92),
+('Luis', 39, 89),
+('Mbappe', 26, 91),
+('Rooney', 43, 84);
